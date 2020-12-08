@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_margin="25dp"
+    tools:context=".AddContact">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <EditText
+        android:id="@+id/name_upload"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="20sp"
+        android:hint="@string/name"
+            android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:inputType="text" />
+
+         <ImageView
+        android:id="@+id/pic_upload"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:scaleType="fitCenter"
+        android:background="@color/colorPrimary"
+        android:layout_marginVertical="7dp"
+        app:srcCompat="@android:drawable/ic_menu_add"
+
+        android:contentDescription="image to upload" />
+
+         <EditText
+        android:id="@+id/phone_upload"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="20sp"
+        android:hint="@string/phone"
+             android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimary"
+        android:inputType="phone"
+             android:gravity="center"
+             android:importantForAutofill="yes" />
+
+        <EditText
+            android:id="@+id/description_upload"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:textSize="20sp"
+            android:hint="@string/description"
+            android:textColorHint="@color/colorWhite"
+            android:inputType="text"
+            android:textColor="@color/colorWhite"
+            android:layout_marginVertical="7dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:minLines="3"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/location_upload"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:textSize="20sp"
+            android:hint="@string/location"
+            android:textColorHint="@color/colorWhite"
+            android:inputType="text"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/facebook_upload"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textSize="20sp"
+            android:hint="@string/facebookLink"
+            android:textColorHint="@color/colorWhite"
+            android:textColor="@color/colorWhite"
+            android:layout_marginVertical="7dp"
+            android:background="@color/colorPrimary"
+            android:inputType="textWebEditText"
+            android:gravity="center"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/web_upload"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textSize="20sp"
+            android:hint="@string/website"
+            android:textColorHint="@color/colorWhite"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorPrimary"
+            android:inputType="textWebEditText"
+            android:gravity="center"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/button_upload"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="end"
+            android:layout_margin="30dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/upload"
+            android:padding="8dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

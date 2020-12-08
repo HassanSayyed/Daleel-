@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">دليل الغازية</string>
+    <string name="daleel_ghazeih">دليل - الغازية</string>
+    <string name="search">بحث</string>
+    <string name="contact_image">صورة الشخص</string>
+    <string name="name">الأسم</string>
+    <string name="description">معلومات</string>
+    <string name="phone">الرقم</string>
+    <string name="location">العنون</string>
+    <string name="facebook">فايس بوك</string>
+    <string name="website">الموقع الالكتروني</string>
+    <string name="emergency">أرقام الطوارىء</string>
+    <string name="deliverey">دليفيري</string>
+    <string name="fast_food">وجبات سريعة</string>
+    <string name="medical">مراكز طبية</string>
+    <string name="workers">عمال</string>
+    <string name="teaching">تعليم</string>
+    <string name="shisha">أراغيل</string>
+    <string name="contact_list">قائمة جهات الاتصال</string>
+    <string name="add_contact">اضافة جهة اتصال</string>
+    <string name="upload">تحميل</string>
+    <string name="facebookLink">رابط حساب الفايسبوك</string>
+    <string name="upload_aproval_message">"تم التحميل بنجاح بانتظار موافقة المشرف "</string>
+    <string name="dental_clinics">عيادات الأسنان</string>
+    <string name="doctors_clinics">عيادات الاطباء</string>
+    <string name="hospitals_and_medical_centers">المستشفيات والمراكز الطبية</string>
+    <string name="police_station_maghdoucheh">مخفر مغدوشة</string>
+    <string name="lebanese_red_cross_saida">الصليب الأحمر اللبناني - صيدا</string>
+    <string name="al_resala_association">جمعية الرسالة للاسعاف</string>
+    <string name="fire_station_saida">فوج الاطفاء - صيدا</string>
+    <string name="ministry_of_interior_and_municipalities_n_police_operation">"وزارة الداخلية "</string>
+    <string name="might_add_later">":) يمكن إضافتها لاحقًا "</string>
+    <string name="error_message">حصل خطأ ما</string>
+    <string name="dialog1">يرجى التأكد من ملء جميع الخانات بالمعلومات الصحيحة</string>
+    <string name="dialog2">سيتم تجاهل المعلومات المتكررة أو الخاطئة</string>
+    <string name="dialog3">"للاستفسارات يرجى التواصل على "</string>
+    <string name="ok">حسناً</string>
+    <string name="taxi">تاكسي</string>
+</resources>

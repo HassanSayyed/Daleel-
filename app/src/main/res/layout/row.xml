@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/colorWhite"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginBottom="6dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/RowImage"
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:src="@color/colorPrimaryDark"/>
+        <TextView
+            android:id="@+id/RowNname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/name"
+            android:paddingTop="13dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_toEndOf="@id/RowImage"
+            android:layout_alignParentTop="true"
+            android:paddingStart="15dp" />
+        <TextView
+            android:id="@+id/RowPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="**/*** ***"
+            android:layout_below="@id/RowNname"
+            android:layout_toEndOf="@id/RowImage"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="HardcodedText" />
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
